@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoManager</title>
+</head>
+
+<body>
+    <div class="app">
+        <h1>Todo Manager</h1>
+        <div class="input-area">
+            <input id="taskInput">
+            <button id="addBtn">Добавить</button>
+        </div>
+        <div class="filters">
+            <button id="filterAll">Все</button>
+            <button id="filterActive">Активные</button>
+            <button id="filterCompleted">Выполненые</button>
+        </div>
+        <div class="sortControls">
+            <button id="sortDefault">По умолчанию</button>
+            <button id="sortAsc">А &#8594; Я</button>
+            <button id="sortDesc">Я &rarr; А</button>
+        </div>
+        <input type="text" id="searchInput" placeholder="Поиск задач...">
+        <ul id="taskList"></ul>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
